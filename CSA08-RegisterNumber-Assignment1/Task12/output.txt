@@ -1,0 +1,19 @@
+fat 4.27 snf 8.73 normal : 33.77
+fat 4.27 snf 8.73 summer : 36.16
+old rounded-step method would give 30 + 8*0.40 + 2*0.30 = 33.800000000000004
+season for month 5: summer | month 9: normal
+normal 3.5/8.5 rate                                     expected      30.00 actual      30.00  PASS
+normal 4.2/8.7 rate (original example)                  expected      33.40 actual      33.40  PASS
+normal 8.5 L 4.2/8.7 payout                             expected     283.90 actual     283.90  PASS
+normal 4.27/8.73 rate                                   expected      33.77 actual      33.77  PASS
+summer 4.27/8.73 rate                                   expected      36.16 actual      36.16  PASS
+summer standard milk 3.5/8.5 rate                       expected      32.00 actual      32.00  PASS
+bonus 500 L (not more than 500)                         expected       0.00 actual       0.00  PASS
+bonus 500.5 L                                           expected     250.25 actual     250.25  PASS
+normal, 400 L, no bonus total                           expected   12000.00 actual   12000.00  PASS
+normal, 600 L, with bonus total                         expected   18300.00 actual   18300.00  PASS
+summer, 400 L, no bonus total                           expected   12800.00 actual   12800.00  PASS
+summer, 600 L, with bonus total                         expected   19500.00 actual   19500.00  PASS
+season_for_month boundaries (Mar, Apr, Jun, Jul): True
+fat 7.01 rejected: PASS
+ALL PASSED

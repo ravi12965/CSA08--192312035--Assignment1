@@ -1,0 +1,7 @@
+rate: 33.4
+ten-day total: 917.5
+printing: 300.0
+returned value reusable: 600.0
+print() gives back: None
+local: 99 global: 0
+lambda rate: 33.4

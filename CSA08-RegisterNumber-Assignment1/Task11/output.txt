@@ -1,0 +1,2 @@
+rate card loaded in 51 microseconds: {'base_rate': Decimal('30.00'), 'fat_step_value': Decimal('0.40'), 'snf_step_value': Decimal('0.30'), 'std_fat': Decimal('3.5'), 'std_snf': Decimal('8.5')}
+300.00 283.90 333.60

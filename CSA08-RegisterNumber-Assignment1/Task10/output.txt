@@ -1,0 +1,18 @@
+       n          float total    Decimal total  float time ms  Decimal time ms
+     300    193666.9589999999       193666.959          0.054            0.156
+    6000   3907123.1529999995      3907123.153          0.933            1.517
+  150000  96697163.8260021210     96697163.826         17.874           34.400
+
+--- Rounding each payment vs rounding only the final total ---
+       n    exact total   round total  sum of rounded  difference
+     300     191547.374     191547.37       191547.52        0.15
+    6000    3889772.790    3889772.79      3889775.47        2.68
+  150000   96909271.009   96909271.01     96909340.07       69.06
+Farmers are paid the ROUNDED amount of each slip, so summing rounded payments is the
+amount the bank must actually transfer; rounding only the final total would not match slips.
+
+--- Rate table (dict) vs recalculation ---
+k distinct pairs = 1581
+recalculate 150000 entries:    83.96 ms  (   560 ns/entry)
+dictionary lookup         :    13.58 ms  (    91 ns/entry)
+table memory approx (dict only): 73808 bytes; space O(k)

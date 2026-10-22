@@ -1,0 +1,11 @@
+input() always returns str because the keyboard supplies characters;
+the program must decide the type via int() / float().
+'8.5'    try/except -> 8.5   | string-check(strip) -> True
+' 8.5 '  try/except -> 8.5   | string-check(strip) -> True
+'8,5'    try/except -> None  | string-check(strip) -> False
+'eight'  try/except -> None  | string-check(strip) -> False
+'10'     try/except -> 10.0  | string-check(strip) -> True
+raw check without strip for ' 8.5 ': False
+Amount:   283.90 | litres:    8.5 | id:    F01
+int('42') = 42  float('4.2') = 4.2
+int('8.5') -> invalid literal for int() with base 10: '8.5'

@@ -1,0 +1,8 @@
+fat 4.2: raw = 7.000000000000002
+   round steps=  7  rate with fat only = 32.80
+   int   steps=  7  rate with fat only = 32.80
+   floor steps=  7  rate with fat only = 32.80
+fat 3.1: raw = -3.999999999999999
+   round steps= -4  rate with fat only = 28.40
+   int   steps= -3  rate with fat only = 28.80
+   floor steps= -4  rate with fat only = 28.40

@@ -1,0 +1,2 @@
+Separate variables total litres (2 entries): 18.5
+List of tuples total litres (3 entries)    : 30.5

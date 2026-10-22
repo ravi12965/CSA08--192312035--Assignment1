@@ -1,0 +1,6 @@
+Decimal      result=33400.30  time=0.158 ms
+int paise    result=(33400.3, 3340030)  time=0.172 ms
+float+round  result=33400.3  time=0.309 ms
+sizeof(float)      = 24
+sizeof(int paise)  = 28
+sizeof(Decimal)    = 104

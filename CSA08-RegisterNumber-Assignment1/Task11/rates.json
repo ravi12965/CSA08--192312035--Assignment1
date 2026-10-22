@@ -1,0 +1,7 @@
+{
+  "base_rate": "30.00",
+  "fat_step_value": "0.40",
+  "snf_step_value": "0.30",
+  "std_fat": "3.5",
+  "std_snf": "8.5"
+}

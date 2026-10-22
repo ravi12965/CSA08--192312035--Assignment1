@@ -1,0 +1,18 @@
+--- type() of values ---
+10         -> <class 'int'>
+10.0       -> <class 'float'>
+'10'       -> <class 'str'>
+True       -> <class 'bool'>
+[10, 8.5]  -> <class 'list'>
+--- division operators ---
+7 / 2   = 3.5
+7 // 2  = 3
+7 % 2   = 1
+-7 // 2 = -4
+--- 0.1 + 0.2 ---
+0.30000000000000004 False
+float  : 33400.30000000061
+Decimal: 33400.30
+False True
+Decimal(float(amount)): 33400.29999999999857893118278
+Decimal(float('33.40')) = 33.39999999999999857891452847979962825775146484375

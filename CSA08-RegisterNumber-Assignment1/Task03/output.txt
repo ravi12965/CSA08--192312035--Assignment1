@@ -1,0 +1,6 @@
+BASE_RATE accidentally changed to 31.0
+5 <class 'int'>
+five <class 'str'>
+after swap: 7 3
+0.0 0.0
+33.4 33.4 33.4
